@@ -1,4 +1,4 @@
 FROM java:8
 ADD target/spotifytest.jar spotifytest.jar
 EXPOSE 8999
-ENTRYPOINT ["java","-jar","SpotifyTest.jar"]
+ENTRYPOINT ["java","-jar","spotifytest.jar"]
